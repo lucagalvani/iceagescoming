@@ -1,0 +1,24 @@
+.footer {
+    font-size: 0.8em;
+    color: #696969;
+    background-color: #FFF;
+    height: 10em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social {
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5;
+    margin-right: 0.7em;
+}
+

@@ -1,0 +1,20 @@
+.contact {
+    text-align: center;
+    color: #696969;
+    line-height: 1.5;
+    margin: 3em 0 6em 0;
+}
+
+.contact a {
+    color: #2A2A2A;
+}
+
+.contact a:hover {
+    color: #2A2A2A; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

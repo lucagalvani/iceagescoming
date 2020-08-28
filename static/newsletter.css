@@ -1,0 +1,75 @@
+.disclaimer {
+    text-align: center;
+    line-height: 1.5;
+    color: #696969;
+    margin: 2em 0 2em 0;
+}
+
+.sign-up {
+    text-align: center;
+    text-transform: uppercase;
+    color: #696969;
+    
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    
+}
+
+input[type=email], input[type=text], input[type=submit] {
+    border: 1px solid #AAAAAA;
+    border-radius: 0.25em;
+    height: 3em;
+    margin-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+input[type=email], input[type=text] {
+    padding-left: 1em;
+}
+
+input[type=submit] {
+    background-color: #F12D45;
+    color: #FFFFFF;
+    border: 1px solid #F12D45;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #B31E30;
+    border: 1px solid #B31E30;
+    transition: all 0.2s ease-in-out;
+}
+
+label {
+    margin: 0 0 0.2em 0.5em;
+}
+ 
+::placeholder {
+    color: #AAAAAA;
+}
+
+footer {
+    
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 10em;
+        
+    }
+}
